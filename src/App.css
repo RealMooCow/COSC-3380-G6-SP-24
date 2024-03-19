@@ -1,0 +1,62 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  z-index: 1000; 
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar li {
+  padding: 14px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  padding-top: 50px;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+#book-list {
+  margin-bottom: 20px;
+}
+
+.book {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#book-form > input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#book-form > input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+}
